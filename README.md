@@ -8,8 +8,7 @@ Time spent: 9 hours spent in total
 
 ## Summary
 
-Different Planet Weight Calculator is an android app that is supposed to be very user friendly, interractive and engaging where someone can calcuate the weight of an object or a human 
-in Lbs (pounds).
+Different Planet Weight Calculator is an android app that is supposed to be very user friendly, interractive and engaging where someone can calcuate the weight of an object or a human in antoher planet.
 
 If I had to describe this project in three (3) emojis, they would be:👨‍🚀📱🌍 
 
