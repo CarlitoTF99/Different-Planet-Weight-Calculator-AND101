@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundgalaxy"
+    tools:context=".MainActivity2"
+
+    >
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="405dp"
+        android:layout_height="157dp"
+        app:layout_constraintBottom_toTopOf="@+id/weight_Input"
+        app:lottie_autoPlay="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.014"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/animation_astronaut" />
+
+
+    <TextView
+        android:id="@+id/step1"
+        android:layout_width="85dp"
+        android:layout_height="40dp"
+        android:fontFamily="@font/space_grotesk_light"
+        android:text="Step 1:"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:tooltipText="Enter your weight in LBs"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.332" />
+
+    <TextView
+        android:id="@+id/lbs_step1"
+        android:layout_width="106dp"
+        android:layout_height="27dp"
+        android:gravity="left"
+        android:fontFamily="@font/space_grotesk_light"
+        android:text="lbs"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:tooltipText="Enter your weight in LBs"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/weight_Input"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.345" />
+
+    <TextView
+        android:id="@+id/weight_result"
+        android:layout_width="207dp"
+        android:layout_height="64dp"
+        android:text="Weight Result:"
+        android:textAlignment="center"
+        android:fontFamily="@font/space_grotesk_light"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/result"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calculate_button"
+        app:layout_constraintVertical_bias="0.9" />
+
+    <Spinner
+        android:id="@+id/planets_spinner"
+        android:layout_width="131dp"
+        android:layout_height="38dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        android:fontFamily="@font/space_grotesk_light"
+        app:layout_constraintStart_toEndOf="@+id/step2"
+        app:layout_constraintTop_toBottomOf="@+id/weight_Input"
+        app:layout_constraintVertical_bias="0.09" />
+
+    <TextView
+        android:id="@+id/step2"
+        android:layout_width="85dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="344dp"
+        android:fontFamily="@font/space_grotesk_light"
+        android:text="Step 2:"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:tooltipText="Choose your planet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/step1"
+        app:layout_constraintVertical_bias="0.493" />
+
+    <TextView
+        android:id="@+id/step3"
+        android:layout_width="85dp"
+        android:layout_height="40dp"
+        android:fontFamily="@font/space_grotesk_light"
+        android:text="Step 3:"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:tooltipText="Tap to Calculate!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/calculate_button"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/step2"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <EditText
+        android:id="@+id/weight_Input"
+        android:layout_width="152dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="116dp"
+        android:fontFamily="@font/space_grotesk_light"
+        android:hint="Enter your weight"
+        android:textSize="16dp"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.166"
+        app:layout_constraintStart_toEndOf="@id/step1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.324">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="207dp"
+        android:layout_height="49dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:fontFamily="@font/space_grotesk_light"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calculate_button"
+        app:layout_constraintVertical_bias="0.62" />
+
+    <Button
+        android:id="@+id/calculate_button"
+        android:layout_width="122dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="252dp"
+        android:background="@drawable/backgroundgalaxy"
+        android:fontFamily="@font/space_grotesk_light"
+        android:text="calculate"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/planets_spinner"
+        app:layout_constraintVertical_bias="0.44" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
