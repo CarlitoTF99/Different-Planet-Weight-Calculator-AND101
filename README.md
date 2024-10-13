@@ -1,71 +1,45 @@
-<!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
+# FoodBridge
 
-# AND101 Project 4 - CodeMath
+FoodBridge is dedicated to solving one of America’s critical issues: **food waste**. While nearly 40% of food produced in the U.S. goes uneaten, millions of people struggle to access healthy meals. **FoodBridge** seeks to address this by connecting surplus food from restaurants, cafes, and bakeries with communities in need.
 
-Submitted by:Jose Huertero
+## Mission
 
-Time spent: 9 hours spent in total
+Our goal is simple: to reduce food waste by redistributing unsold food to those experiencing hunger. We aim to foster a solution where businesses reduce waste, and individuals in need receive the nourishment they deserve.
 
-## Summary
+## How It Works
 
-Different Planet Weight Calculator is an android app that is supposed to be very user friendly, interractive and engaging where someone can calcuate the weight of an object or a human in antoher planet.
+1. **Local Business Partnerships**: Restaurants, cafes, and bakeries committed to reducing waste list unsold food on our platform.
+2. **Food Distribution**: Individuals can easily find and claim available food through our platform, ensuring that good meals don't go to waste.
+3. **Recognition for Partners**: Participating businesses gain public visibility as part of the fight against food waste, encouraging more businesses to join in.
 
-If I had to describe this project in three (3) emojis, they would be:👨‍🚀📱🌍 
+## Key Features
 
-## Application Features
+- **Community-Centered**: We ensure that surplus food reaches those in need, preventing waste and promoting food security.
+- **Free Access**: Both businesses and recipients benefit from a completely free platform, where meals can be shared with no financial burden.
+- **Environmental Impact**: By reducing food waste, we help lower methane emissions and other negative environmental impacts.
 
-<!-- (This is a comment) Please be sure to change the [ ] to [x] for any features you completed.  If a feature is not checked [x], you might miss the points for that item! -->
+## Our Commitment to Charity
 
-The following REQUIRED features are completed:
+FoodBridge operates on a 100% charity-based model. We are driven by the desire to make a difference, not profit. Our funding comes from:
+- **Donations**: Individual and corporate contributions fuel our growth.
+- **Sponsorships**: Partner organizations help us expand our reach.
+- **Advertising**: Collaborations with like-minded businesses help promote our cause.
 
-- [x] At least one (1) user input
-- [x] At least one (1) interactive View
-- [x] At least one (1) output of a calculation based on the user input
+## Get Involved
 
-The following STRETCH features are implemented:
+### For Restaurants & Food Businesses
+Join us by listing your unsold food on the platform, helping reduce waste and supporting communities in need. In return, your business gains visibility as a contributor to the fight against hunger.
 
-- [ ] Implement ViewBinding to reduce boilerplate code and increase efficiency
-- [x] Add at least one (1) additional functionality
+### For Individuals & Communities
+If you or someone you know is facing food insecurity, our platform offers easy access to free meals in your area. Simply search and claim what you need.
 
-The following EXTRA features are implemented:
+### Sponsors & Donors
+Your support helps us expand our impact. Every contribution goes directly to improving our platform, reaching more communities, and raising awareness about food waste.
 
-- [x] Added Toasts as well as tool tips to make the app more intereactive 
-- [x] I wanted to have a home pannel so I made one and the start button will make you switch from the home activity to the main activity
-- [x] Added lootiesAnimationView to make again the app more interactive and more alive, I did this for both the home page and the main activity page
+## How to Run This Project Locally
 
+If you want to run **FoodBridge** locally or contribute to its development, follow these steps:
 
-## Video Demo
-
-Here's a video / GIF that demos all of the app's implemented features:
-
-<img src='https://imgur.com/FtP0Kjj.gif' title='Video Demo' width='' alt='Video Demo' />
-
-GIF created with [ScreenToGif](https://www.screentogif.com/) for Windows
-
-<!-- Recommended tools:
-- [Kap](https://getkap.co/) for macOS
-- [ScreenToGif](https://www.screentogif.com/) for Windows
-- [peek](https://github.com/phw/peek) for Linux. -->
-
-## Notes
-
-While doing the app I was not sure what to do, so then I remembered that the professor said something about calculating the weight in another planet and that was the inspiration for me to make this app.
-I came across many difficulties and many things I had to learn on my own to implement them into my app, I also did not want my app to be very simple and just have a blank background so I went ahead and had fun with it.
-In conclusion, making this app was quite fun and challenging as well as educational, since I learned quite a lot in the process of making it. Like how to implement animations into my layouts, how to use strings and apply them into my spinners,
-how to set click listeners and how to make click listeners switch from one activity to the to the other.
-## License
-
-Copyright 2023 Jose Huertero
-
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/foodbridge.git
