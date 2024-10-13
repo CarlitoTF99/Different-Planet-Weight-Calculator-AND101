@@ -42,4 +42,4 @@ If you want to run **FoodBridge** locally or contribute to its development, foll
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/foodbridge.git
+   git clone https://github.com/AnasAA98/FoodBridge.git
